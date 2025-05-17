@@ -157,3 +157,6 @@ function displayMovieData(data) {
 // Event listeners
 document.getElementById('movieSearch').addEventListener('input', showSuggestions);
 document.getElementById('fetch-button').addEventListener('click', getData);
+
+
+// baue fehlertoleranz mit fuse.js npm
